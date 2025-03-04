@@ -221,7 +221,8 @@ footer {
   align-items: center;
   color: #ffff;
   line-height: 160px;
-  margin-left: 500px;
+  width: 100%;
+  text-align: center;
 }
 /* rangrez picments title  */
 .title4 {

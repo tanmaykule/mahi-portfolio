@@ -8,6 +8,9 @@
 }
 body {
   background-color: #1e1e1e;
+  margin: 0;
+  margin-top: 8px;
+  overflow-x: hidden;
 }
 
 .navigation {
@@ -25,7 +28,8 @@ body {
 /* Header Section */
 .name {
   font-family: main;
-  font-size: 250px;
+  font-size: 12.5cqw;
+  text-align: center;
   align-items: center;
   color: #ffff;
   line-height: 160px;
@@ -42,7 +46,7 @@ body {
   margin-left: 15px;
 }
 .aboutme {
-  width: 40%;
+  width: 100%;
   font-family: main;
   font-size: 200px;
   color: #f13927;
@@ -83,27 +87,7 @@ body {
   transition: color 0.3s ease; /* Smooth transition effect on hover */
 }
 
-/* Optional hover effect */
-.social-links a:hover {
-  color: #ffffff; /* Changes color on hover (example) */
-}
-
-.intro {
-  width: 20%;
-  padding-left: 1700px;
-}
-/* Image Links Section */
-.work {
-  width: 100%;
-  height: fit-content;
-}
-
-.text-container {
-  width: 100%;
-  height: 800px;
-  background-color: #f13927;
-  font-family: main;
-  font-size: 200px;
+/* Optional hover effect *marginont-size: 200px;
   line-height: 900px;
 }
 .work-link img {
@@ -189,6 +173,49 @@ body {
   margin-right: -160px;
 }
 
+@media only screen and (max-width: 1600px) {
+    .hk,
+    .dailygrind,
+    .naagin {
+    width: 500px; /* Set the width */
+    height: auto; /* Maintain aspect ratio */
+    filter: grayscale(100%); /* Apply grayscale filter initially */
+    transition: all 0.3s ease-in-out; /* Smooth transitions for hover effects */
+    align-items: center;
+    line-height: 25px;
+    }
+    .dailygrind {
+    margin-right: -90px;
+    }
+    .naagin {
+    margin-left: -40px;
+    }
+    .hk {
+    margin-right: -100px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .hk,
+    .dailygrind,
+    .naagin {
+    width: 400px; /* Set the width */
+    height: auto; /* Maintain aspect ratio */
+    filter: grayscale(100%); /* Apply grayscale filter initially */
+    transition: all 0.3s ease-in-out; /* Smooth transitions for hover effects */
+    align-items: center;
+    line-height: 25px;
+    }
+    .dailygrind {
+    margin-right: -90px;
+    }
+    .naagin {
+    margin-left: -40px;
+    }
+    .hk {
+    margin-right: -100px;
+    }
+}
+
 /* Hover effect to remove grayscale and slightly zoom the image */
 .hk:hover,
 .dailygrind:hover,
@@ -244,14 +271,59 @@ body {
   font-size: 200px;
   line-height: 900px;
   text-align: center;
+  white-space: nowrap;
+  /* Prevent text from wrapping */
+  cursor: pointer;
+  /* Indicate interactivity */
+  letter-spacing: -80px;
+  /* Tight letter-spacing before hover */
+  transition: letter-spacing 0.5s ease-in-out;
+  /* Smooth transition for spacing */
+} /* Text container */
+/* Stop animations by default */
+.left-part,
+.right-part {
+  display: inline-block;
+  transform: translateX(0);
+  /* Start at normal position */
+  transition: transform 0.8s ease-in-out;
+  /* Smooth transition */
+  letter-spacing: 0px;
+  /* Tight letter-spacing before hover */
+}
+
+/* Middle part remains stationary */
+.middle-part {
+  display: inline-block;
+  letter-spacing: 0px;
+  /* Tight letter-spacing before hover */
+
+}
+
+/* Hover state triggers the animations */
+.text-container:hover .left-part {
+  transform: translateX(-200px);
+  /* Move left */
+}
+
+.text-container:hover .right-part {
+  transform: translateX(200px);
+  /* Move right */
 }
 
 /* Container for Images */
 .image-overlay {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  top: -1100px; /* Adjust this to layer images on top of the "WORKS" text */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 800px;
+  height: 600px;
 }
 
 /* Style for Individual Images */
@@ -272,34 +344,34 @@ increase to move it down */
 and decrese to move left  */
 .img1 {
   top: 50px;
-  left: 620px;
+  left: 70px;
   transform: rotate(-6deg);
   align-items: center;
 }
 .img2 {
   top: 250px;
-  left: 1200px;
+  left: 650px;
   transform: rotate(6deg);
   align-items: center;
 }
 .img3 {
   top: 410px;
-  left: 600px;
+  left: 50px;
   transform: rotate();
 }
 .img4 {
   top: 240px;
-  left: 400px;
+  left: -150px;
   transform: rotate();
 }
 .img5 {
   top: 400px;
-  left: 900px;
+  left: 450px;
   transform: rotate(-5deg);
 }
 .img6 {
   top: 70px;
-  left: 900px;
+  left: 450px;
   transform: rotate(-5deg);
 }
 
@@ -319,9 +391,13 @@ and decrese to move left  */
   line-height: 160px;
   margin-left: 300px;
 }
-.intro1 {
-  width: 20%;
-  padding-left: 1650px;
+.intro {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #ffff;
+  width: 98%;
+  text-align: right;
+  padding-right: 15px;
 }
 
 .backred {
