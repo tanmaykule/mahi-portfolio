@@ -1,0 +1,326 @@
+  /* General Page Styling */
+ @font-face {
+    font-family: main;
+    src: url(/assets/fonts/Dx-Slight-Bold-Ultra.otf);
+ }
+  body{
+    background-color: #1E1E1E;
+  }
+
+  .navigation{
+   
+height: fit-content;
+  }
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+    font-size: 20px;
+    padding-right: 50px;
+    margin-left: 30px;
+    text-decoration: none; /* Removes the underline */
+
+}
+
+/* Header Section */
+.name{
+    font-family: main;
+    font-size: 250px;
+align-items: center;
+    color: #ffff;
+    line-height: 160px;
+    margin-left: 15px ;
+}
+
+.description{
+    width: 55%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ffff;
+}
+.main{
+    margin-left: 15px;
+}
+.aboutme{
+    width: 40%;
+    font-family: main;
+    font-size: 200px;
+    color: #F13927;
+    margin-left:35px;
+    line-height: 0px;
+    position:relative;
+      padding: 0 0 0 0;
+
+}
+.dis2{
+    width: 97%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ffff;
+    /* margin-left: 35px ; */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    align-items: end; /* Aligns content to the bottom */
+    height: auto; /* Adjust as needed */
+    /* border: 1px solid white; For visualization */
+  }
+
+
+  .left-text {
+    text-align: left; /* Align text to the left */
+    margin-left: 35px ;
+  }
+  
+  .righttext {
+    text-align: right; /* Align text to the right */
+    
+  }
+
+  /* General styling for the links */
+.social-links a {
+    color: #ffffff; /* Makes the links white */
+    text-decoration: none; /* Removes the underline */
+    font-family: 'Montserrat', sans-serif; /* Ensures font consistency */
+    font-size: 20px; /* Adjusts the size to match the design */
+    margin: 0 15px; /* Adds spacing between the links */
+    transition: color 0.3s ease; /* Smooth transition effect on hover */
+}
+
+/* Optional hover effect */
+.social-links a:hover {
+    color: #ffffff; /* Changes color on hover (example) */
+}
+
+
+.intro  {
+    width: 20%;
+    padding-left: 1700px;}
+/* Image Links Section */
+.work{
+width: 100%;
+height: fit-content;
+}
+
+.text-container{
+    width: 100%;
+    height: 800px;
+    background-color: #F13927;
+    font-family: main;
+    font-size: 200px;
+    line-height: 900px;
+}
+.work-link img {
+    width: 250px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.work-link img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+/* new styles */
+
+/* Work Section */
+.work {
+    position: relative;
+    /* margin-top: 20px; */
+}
+
+.work img {
+    width: 100%;
+    height: auto;
+}
+
+
+.player-item {
+    display: inline-block; 
+     position: relative; 
+} */
+
+/* .player-item img {
+    width: 300px ;
+    height: 300px;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* padding: 10px; */
+/* } */ */
+
+.player-item:hover img {
+    filter: none;
+    transform: scale(1.2);
+    /* background: rgba(255, 255, 255, 0.8); */
+}
+/* Player Items Container */
+.work-players {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+column-gap: 0px;}
+
+
+/* Container to hold the images */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px; /* Decrease the space between the images (previously 20px) */
+}
+
+/* Individual Player Items */
+.hk, .dailygrind, .naagin {
+    width: 650px;  /* Set the width */
+    height: auto;  /* Maintain aspect ratio */
+    filter: grayscale(100%);  /* Apply grayscale filter initially */
+    transition: all 0.3s ease-in-out; /* Smooth transitions for hover effects */
+    align-items: center;
+    line-height: 25px;
+    
+}
+.dailygrind{
+    margin-right: -160px;
+
+}
+.naagin{
+    margin-left: -40px;
+
+}
+.hk{
+    margin-right: -160px;
+}
+
+
+/* Hover effect to remove grayscale and slightly zoom the image */
+.hk:hover, .dailygrind:hover, .naagin:hover {
+    filter: grayscale(0%); /* Removes grayscale */
+    transform: scale(1.05); /* Zooms in slightly */
+}
+
+/* Adjust max-width if needed */
+.hk {
+    max-width: 700px;
+}
+.dailygrind {
+    max-width: 800px;
+}
+.naagin {
+    max-width: 700px;
+}
+
+/* Optional: control the stacking order */
+.hk {
+    z-index: 1;
+}
+.dailygrind {
+    z-index: 0;
+}
+.naagin {
+    z-index: 2;
+}
+/* Hover Effect on Images */
+.hk:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+    filter: grayscale(0); /* Remove grayscale filter on hover */
+    
+}
+.dailygrind:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+    filter: grayscale(0); /* Remove grayscale filter on hover */
+    
+}
+.naagin:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+    filter: grayscale(0); /* Remove grayscale filter on hover */
+    
+}
+
+
+
+
+/* my works section new  */
+
+/* My Works Section */
+.text-container {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-color: #F13927;
+    font-family: main;
+    font-size: 200px;
+    line-height: 900px;
+    text-align: center;
+}
+
+/* Container for Images */
+.image-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -1100px; /* Adjust this to layer images on top of the "WORKS" text */
+}
+
+/* Style for Individual Images */
+.work-img {
+    position: absolute;
+    width: 150px; /* Adjust image size */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    z-index: 2; /* Ensure images are on top of text */
+    align-items: center;
+    margin-left: 70px;
+}
+
+/* Randomly Position Images */
+/* reduce to top to move the image up
+increase to move it down */
+/* increase the left to move on right
+and decrese to move left  */
+.img1 { top: 50px; left: 620px; transform: rotate(-6deg);
+    align-items: center;
+ }
+.img2 { top: 250px; left: 1200px; transform: rotate(6deg); 
+    align-items: center;
+}
+.img3 { top: 410px; left: 600px; transform: rotate(); }
+.img4 { top: 240px; left: 400px; transform: rotate(); }
+.img5 { top: 400px; left: 900px; transform: rotate(-5deg); }
+.img6 { top: 70px; left: 900px; transform: rotate(-5deg); }
+
+/* Hover Effect */
+.work-img:hover {
+    transform: scale(1.2) rotate(0deg); /* Reset rotation and enlarge on hover */
+    z-index: 3; /* Bring to front */
+}
+
+/* internal linked pages */
+/* hk works- garden glow sunsets  */
+.title1 {
+    font-family: main;
+    font-size: 100px;
+align-items: center;
+    color: #ffff;
+    line-height: 160px;
+    margin-left: 300px ;
+}
+.intro1{ 
+        width: 20%;
+        padding-left: 1650px;
+    }
+
+.backred{
+ margin-left: 1000px;
+    width: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    /* background: #F13927; */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}

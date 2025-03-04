@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hover Text Animation</title>
+<style>
+  /* Center the entire body content */
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9; /* Optional: light background for visibility */
+    overflow: hidden; /* Ensures no scrollbars */
+  }
+
+  /* Text container */
+  .text-container {
+    font-size: 48px; /* Increase text size */
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-weight: bold;
+    cursor: pointer; /* Indicate interactivity */
+  }
+
+  /* Stop animations by default */
+  .left-part, .right-part {
+    display: inline-block;
+    transform: translateX(0); /* Start at normal position */
+    transition: transform 0.8s ease-in-out; /* Smooth transition */
+  }
+
+  /* Middle part remains stationary */
+  .middle-part {
+    display: inline-block;
+  }
+
+  /* Hover state triggers the animations */
+  .text-container:hover .left-part {
+    transform: translateX(-50px); /* Move left */
+  }
+
+  .text-container:hover .right-part {
+    transform: translateX(50px); /* Move right */
+  }
+</style>
+</head>
+<body>
+
+<div class="text-container">
+  <span class="left-part">W</span>
+  <span class="middle-part">OR</span>
+  <span class="right-part">KS</span>
+</div>
+
+</body>
+</html>

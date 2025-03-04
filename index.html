@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahi Patwa Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"> -->
+    <link href="assets/css/style new 2.css" rel="stylesheet">
+    <style>
+        /* Text container */
+        .text-container {
+            white-space: nowrap;
+            /* Prevent text from wrapping */
+            cursor: pointer;
+            /* Indicate interactivity */
+            letter-spacing: -80px;
+            /* Tight letter-spacing before hover */
+            transition: letter-spacing 0.5s ease-in-out;
+            /* Smooth transition for spacing */
+        }
+
+        /* Stop animations by default */
+        .left-part,
+        .right-part {
+            display: inline-block;
+            transform: translateX(0);
+            /* Start at normal position */
+            transition: transform 0.8s ease-in-out;
+            /* Smooth transition */
+            letter-spacing: 0px;
+            /* Tight letter-spacing before hover */
+        }
+
+        /* Middle part remains stationary */
+        .middle-part {
+            display: inline-block;
+            letter-spacing: 0px;
+            /* Tight letter-spacing before hover */
+
+        }
+
+        /* Hover state triggers the animations */
+        .text-container:hover .left-part {
+            transform: translateX(-200px);
+            /* Move left */
+        }
+
+        .text-container:hover .right-part {
+            transform: translateX(200px);
+            /* Move right */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navigation">
+        <nav class="nav">
+            <a href="#about1" class="nav-link disabled" aria-disabled="true">aboutme</a>
+            <a href="#about2" class="nav-link disabled" aria-disabled="true">work</a>
+            <a href="mahi patwa cv resume final.pdf" download="My_Resume.pdf" class="nav-link disabled"
+                aria-disabled="true">resume</a>
+            <a href="#about1" class="nav-link disabled" aria-disabled="true">contact</a>
+        </nav>
+    </div>
+    <!-- Header Section -->
+
+    <div class="name">
+        <h1>MAHI PATWA</h1>
+    </div>
+    <div class="description">
+        <div class="main">
+            <p>
+                A GRAPHIC DESIGNER & ILLUSTRATOR.<br>Bringing culture and creativity to life, <br> one illustration at a
+                time.
+            </p>
+        </div>
+        <div class="intro">
+            <p> Based in Mumbai</p>
+        </div>
+
+
+    </div>
+
+    <!-- Work Section with "Group 3.png" -->
+    <div class="work position-relative" id="about3">
+        <img src="assets/images/Group 3.png" alt="Work Background" class="img-fluid">
+        <div class="work-players d-flex justify-content-center">
+            <a href="hktest.html" class="hk">
+                <img src="assets/images/1-01.png" alt="Player 1">
+            </a>
+            <a href="dailygrind.html" class="dailygrind">
+                <img src="assets/images/2-01.png" alt="Player 2">
+            </a>
+            <a href="naagin.html" class="naagin">
+                <img src="assets/images/3-01.png" alt="Player 3">
+            </a>
+        </div>
+    </div>
+    </div>
+    <div class="text-container" id="about2">
+        <h1 style="text-align: center;">
+            <span class="left-part">W</span>
+            <span class="middle-part">OR</span>
+            <span class="right-part">KS</span>
+        </h1>
+        <div class="image-overlay">
+            <a href="radiobar.html" class="rangrez">
+                <img src="assets/images/rb1.jpg" alt="Work 1" class="work-img img1">
+            </a>
+            <a href="pourlikeapro.html" class="rangrez">
+                <img src="assets/images/cookbook 1.jpg" alt="Work 2" class="work-img img2">
+            </a>
+            <a href="virasat.html" class="rangrez">
+                <img src="assets/images/3 TYPO PACKAGING-01.jpg" alt="Work 3" class="work-img img3">
+            </a>
+            <a href="rangrez.html" class="rangrez">
+                <img src="assets/images/IDENTITY DESIGN-01.jpg" alt="Work 4" class="work-img img4">
+            </a>
+            <a href="stanps.html" class="rangrez">
+                <img src="assets/images/STAMPS-01.jpg" alt="Work 5" class="work-img img5">
+            </a>
+            <a href="edsheran.html" class="rangrez">
+                <img src="assets/images/CONCERST TICKTS-01.jpg" alt="Work 6" class="work-img img6">
+            </a>
+        </div>
+    </div>
+    <!-- giving a internal direction (id) to direct you to the page in your original page -->
+    <div class="aboutme" id="about1">
+        <p>ABOUT ME</p>
+    </div>
+    <div class="dis2">
+        <div class="left-text">
+            <p>
+                Hi, I’m Mahi Patwa, a visual designer and illustrator <br>
+                passionate about tieing marketing ideas with visual narratives. <br>
+                With a deep love for illustrations, I bring concepts <br>
+                to life across various mediums, from branding and motion <br>
+                graphics to illustration. My work is often inspired by hits <br>
+                from history, which I blend to create visual experiences.
+            </p>
+        </div>
+
+
+        <div class="righttext">
+            <div class="social-links">
+                <p><a
+                        href="https://www.instagram.com/mahimasaalaa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">🡥
+                        Instagram</a></p>
+                </p><a href="https://www.behance.net/9a9c7ac4">🡥 Behance</a></p>
+                </p><a href="https://www.linkedin.com/in/mahi-patwa-12265b290/m">🡥 LinkedIn</a></p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mahi Patwa</p>
+    </footer>
+</body>
+
+</html>

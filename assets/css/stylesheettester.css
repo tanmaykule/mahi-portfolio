@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ff3d00; /* Red background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .works-section {
+    position: relative;
+    text-align: center;
+  }
+  
+  .works-text {
+    font-size: 150px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.1); /* Faint black */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .part {
+    transition: transform 0.5s ease, letter-spacing 0.5s ease;
+  }
+  
+  .part-w {
+    letter-spacing: 0;
+  }
+  
+  .part-or {
+    letter-spacing: 0;
+  }
+  
+  .part-ks {
+    letter-spacing: 0;
+  }
+  
+  .works-images {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    transition: transform 0.5s ease, grid-template-rows 0.5s ease;
+  }
+  
+  .work-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .works-section:hover .part-w {
+    transform: translateX(-100px);
+  }
+  
+  .works-section:hover .part-or {
+    transform: translateX(100px);
+  }
+  
+  .works-section:hover .part-ks {
+    transform: translateX(200px);
+  }
+  
+  .works-section:hover .works-images {
+    grid-template-columns: repeat(2, 1fr);
+    transform: translateY(50px);
+  }
+  
+  .works-section:hover .work-image:nth-child(1) {
+    transform: translate(-50px, -100px);
+  }
+  
+  .works-section:hover .work-image:nth-child(2) {
+    transform: translate(50px, -100px);
+  }
+  
+  .works-section:hover .work-image:nth-child(3) {
+    transform: translate(-50px, 0);
+  }
+  
+  .works-section:hover .work-image:nth-child(4) {
+    transform: translate(50px, 0);
+  }
+  
+  .works-section:hover .work-image:nth-child(5) {
+    transform: translate(-50px, 100px);
+  }
+  
+  .works-section:hover .work-image:nth-child(6) {
+    transform: translate(50px, 100px);
+  }
+
+  
