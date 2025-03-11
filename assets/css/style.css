@@ -3,7 +3,7 @@
 /* General Page Styling */
 @font-face {
   font-family: main;
-  src: url({{site.baseurl}}assets/fonts/Dx-Slight-Bold-Ultra.otf);
+  src: url({{site.baseurl}}/assets/fonts/Dx-Slight-Bold-Ultra.otf);
 }
 body {
   background-color: #1e1e1e;

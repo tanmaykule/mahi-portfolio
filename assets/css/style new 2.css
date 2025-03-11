@@ -3,7 +3,7 @@
 /* General Page Styling */
 @font-face {
   font-family: main;
-  src: url({{site.baseurl}}assets/fonts/Dx-Slight-Bold-Ultra.otf);
+  src: url({{site.baseurl}}/assets/fonts/Dx-Slight-Bold-Ultra.otf);
 }
 body {
   background-color: #1e1e1e;
@@ -54,10 +54,12 @@ body {
 }
 
 .description {
-  width: 55%;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   color: #ffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .main {
   margin-left: 15px;
@@ -418,6 +420,7 @@ and decrese to move left  */
   width: 98%;
   text-align: right;
   padding-right: 15px;
+  align-content: center;
 }
 
 .backred {

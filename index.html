@@ -17,13 +17,16 @@
 <body>
     <!-- Navbar -->
     <div class="navigation">
-        <nav class="nav">
-            <a href="#about1" class="nav-link disabled" aria-disabled="true">aboutme</a>
-            <a href="#about2" class="nav-link disabled" aria-disabled="true">work</a>
-            <a href="mahi patwa cv resume final.pdf" download="My_Resume.pdf" class="nav-link disabled"
-                aria-disabled="true">resume</a>
-            <a href="#about1" class="nav-link disabled" aria-disabled="true">contact</a>
-        </nav>
+    <nav class="nav">
+        <a href="{{site.baseurl}}/#about1"  
+        class="nav-link disabled" aria-disabled="true" >aboutme</a>
+        <a  href="{{site.baseurl}}/#about3" 
+        class="nav-link disabled" aria-disabled="true" >work</a>
+        <a  href="{{site.baseurl}}/mahi patwa cv resume final.pdf" download="My_Resume.pdf" class="nav-link disabled">
+        resume</a>`
+        <a  href="{{site.baseurl}}/" class="nav-link disabled">
+        contact</a>
+      </nav>
     </div>
     <!-- Header Section -->
 
@@ -37,10 +40,9 @@
                 time.
             </p>
         </div>
-
-    </div>
-    <div class="intro">
-        Based in Mumbai
+        <div class="intro">
+            Based in Mumbai
+        </div>
     </div>
 
     <!-- Work Section with "Group 3.png" -->
@@ -49,16 +51,16 @@
             ILLUSTRATIONS
         </div>
         <div class="position-relative">
-            <img src="{{site.baseurl}}assets/images/Group 3.png" alt="Work Background" class="img-fluid">
+            <img src="{{site.baseurl}}/assets/images/Group 3.png" alt="Work Background" class="img-fluid">
             <div class="work-players d-flex justify-content-center">
                 <a href="hktest.html" class="hk">
-                    <img src="{{site.baseurl}}assets/images/1-01.png" alt="Player 1">
+                    <img src="{{site.baseurl}}/assets/images/1-01.png" alt="Player 1">
                 </a>
                 <a href="dailygrind.html" class="dailygrind">
-                    <img src="{{site.baseurl}}assets/images/2-01.png" alt="Player 2">
+                    <img src="{{site.baseurl}}/assets/images/2-01.png" alt="Player 2">
                 </a>
                 <a href="naagin.html" class="naagin">
-                    <img src="{{site.baseurl}}assets/images/3-01.png" alt="Player 3">
+                    <img src="{{site.baseurl}}/assets/images/3-01.png" alt="Player 3">
                 </a>
             </div>
             </div>
@@ -71,31 +73,31 @@
             <span class="right-part">KS</span>
         </h1>
         <div class="image-overlay">
-            <a href="radiobar.html" class="rangrez">
+            <a href="stamps.html" class="rangrez">
                 <img src="assets/images/iphone-16-mockup-of-the-bench-isometric.png" alt="Work 1" class="work-img img1">
             </a>
-            <a href="pourlikeapro.html" class="rangrez">
+            <a href="virasat.html" class="rangrez">
                 <img src="assets/images/3 TYPO PACKAGING-01.jpg" alt="Work 2" class="work-img img2">
             </a>
-            <a href="virasat.html" class="rangrez">
+            <a href="edsheran.html" class="rangrez">
                 <img src="assets/images/CONCERST TICKTS-01.jpg" alt="Work 3" class="work-img img3">
             </a>
             <a href="rangrez.html" class="rangrez">
                 <img src="assets/images/IDENTITY DESIGN-01.jpg" alt="Work 4" class="work-img img4">
             </a>
-            <a href="stamps.html" class="rangrez">
+            <a href="radiobar.html" class="rangrez">
                 <img src="assets/images/iphone-16-supper-club-mockup.png" alt="Work 5" class="work-img img5">
             </a>
-            <a href="edsheran.html" class="rangrez">
+            <a href="pourlikeapro.html" class="rangrez">
                 <img src="assets/images/cbmockup-1.png" alt="Work 6" class="work-img img6">
             </a>
         </div>
     </div>
     <!-- giving a internal direction (id) to direct you to the page in your original page -->
-    <div class="aboutme" id="about1">
+    <div class="aboutme">
         ABOUT ME
     </div>
-    <div class="dis2">
+    <div class="dis2" id="about1">
         <div class="left-text">
             <p>
                 Hi, I’m Mahi Patwa, a visual designer and illustrator <br>
