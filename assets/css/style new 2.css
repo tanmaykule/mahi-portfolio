@@ -57,11 +57,25 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   color: #ffff;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns:repeat(10, auto);
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .main {
-  padding-left: 15px;
+  display: grid;
+  grid-column: span 4 / span 4;
+}
+.intro {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: right;
+  align-content: end;
+  color: #ffff;
+  padding-right: 15px;
+  display: grid;
+  grid-column: span 6 / span 6;
 }
 .aboutme {
   width: 100%;
@@ -411,16 +425,6 @@ and decrese to move left  */
   color: #ffff;
   line-height: 160px;
   margin-left: 300px;
-}
-.intro {
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  color: #ffff;
-  width: 98%;
-  text-align: right;
-  padding-right: 15px;
-  display: flex;
-  flex-direction: column-reverse;
 }
 
 .backred {
