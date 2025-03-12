@@ -89,6 +89,10 @@
   margin-top: 5%;
 }
 
+.big-image {
+    width: 93%;
+}
+
 .width-80 {
     max-width: 1200px;
 }
