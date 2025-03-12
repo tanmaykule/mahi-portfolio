@@ -170,107 +170,88 @@
 }
 
 .gg-1 {
-    background: white;
     grid-column: span 1;
     grid-row: span 12;
 }
 
 .gg-2 {
-    background: white;
     grid-column: span 1;
     grid-row: span 12;
 }
 
 .gg-3 {
-    background: white;
     grid-column: span 1;
     grid-row: span 12;
 }
 
 .gg-4 {
-    background: white;
     grid-column: span 1;
     grid-row: span 8;
 }
 
 .gg-5 {
-    background: white;
     grid-column: span 1;
     grid-row: span 8;
 }
 
 .gg-6 {
-    background: white;
     grid-column: span 1;
     grid-row: span 6;
 }
 
 .gg-7 {
-    background: white;
     grid-column: span 1;
     grid-row: span 12;
 }
 
 .gg-8 {
-    background: white;
     grid-column: span 1;
     grid-row: span 12;
 }
 
 .gg-9 {
-    background: white;
     grid-column: span 1;
     grid-row: span 8;
 }
 
 .gg-10 {
-    background: white;
     grid-column: span 1;
     grid-row: span 6;
 }
 
 .tone-1 {
-    background: white;
     grid-column: span 1;
     grid-row: span 1;
 }
 .tone-2 {
-    background: white;
     grid-column: span 1;
     grid-row: span 2;
 }
 .tone-3 {
-    background: white;
     grid-column: span 1;
     grid-row: span 2;
 }
 .tone-4 {
-    background: white;
     grid-column: span 1;
     grid-row: span 1;
 }
 .tone-5 {
-    background: white;
     grid-column: span 1;
     grid-row: span 1;
 }
 .tone-6 {
-    background: white;
     grid-column: span 1;
     grid-row: span 1;
 }
 .tone-7 {
-    background: white;
     grid-column: span 1;
     grid-row: span 1;
 }
 
 .display-1 {
-    background: white;
     grid-column: span 4;
 }
 
 .display-2 {
-    background: white;
     grid-column: span 6;
 }

@@ -20,6 +20,10 @@ body {
   margin-left: 50px;
 }
 
+.nav > a {
+  text-decoration: none;
+}
+
 /* Header Section */
 
 .description {
