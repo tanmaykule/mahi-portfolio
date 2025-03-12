@@ -1,0 +1,276 @@
+.hero-grid {
+    display: grid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.hero-grid-small {
+    grid-column: span 2;
+}
+
+.hero-grid-big {
+    width: 100%;
+    grid-column: span 4;
+}
+
+.hero-grid-content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #ffff;
+  margin-left: 15px;
+}
+.hero-grid-text{
+    width: 80%;
+}
+
+.hero-grid-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-grid-year{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-grid-image {
+  position: relative; /* Set relative positioning for stacking */
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 500px; /* Adjust the width as needed */
+  right: 0;
+  margin-left: auto;
+}
+
+.hero-grid-image .bg-image {
+  width: 100%; /* Adjust the width as needed */
+  position: relative;
+  z-index: 1; /* Ensures the red box stays behind the HK image */
+  margin-right: 30px;
+}
+
+.hero-grid-image .foreground-image {
+  position: absolute; /* Positioned on top of the red box */
+  rotate: -10deg;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 80%; 
+  z-index: 2;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.dark-products {
+  display: flex;
+  gap: 1rem; /* Space between product cards */
+  justify-content: center; /* Center the products horizontally */
+  align-items: center; /* Align products vertically */
+  padding: 2rem; /* Add padding around the entire section */
+}
+
+.chapter-title {
+  font-family: main;
+  font-size: 10vw;
+  align-items: center;
+  color: #ffff;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.width-80 {
+    max-width: 1200px;
+}
+
+.size-10-grid {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.size-4-grid-item {
+    grid-column: span 4;
+}
+
+.size-6-grid-item {
+    grid-column: span 6;
+}
+
+.header-text {
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.small-text {
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.chapter-grid-margin {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.display-grid {
+    width: 90%;
+    gap: 3rem;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
+.gardenglow-grid {
+    width: 90%;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(24, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tones-grid {
+    width: 90%;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.display-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gg-1 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 12;
+}
+
+.gg-2 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 12;
+}
+
+.gg-3 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 12;
+}
+
+.gg-4 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 8;
+}
+
+.gg-5 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 8;
+}
+
+.gg-6 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 6;
+}
+
+.gg-7 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 12;
+}
+
+.gg-8 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 12;
+}
+
+.gg-9 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 8;
+}
+
+.gg-10 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 6;
+}
+
+.tone-1 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.tone-2 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.tone-3 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.tone-4 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.tone-5 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.tone-6 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.tone-7 {
+    background: white;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.display-1 {
+    background: white;
+    grid-column: span 4;
+}
+
+.display-2 {
+    background: white;
+    grid-column: span 6;
+}
