@@ -1,0 +1,21 @@
+.grey-products {
+    display: flex;
+    justify-content: center; /* Center the products horizontally */
+    align-items: center; /* Align products vertically */
+    background-color: #F4EBEA7D;
+}
+.chapter-title {
+  font-family: main;
+  font-size: 5vw;
+  align-items: center;
+  color: #ffff;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.product-img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 70%;
+}
