@@ -130,6 +130,8 @@
 .chapter-grid-margin {
     margin-top: 5%;
     margin-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .display-grid {
@@ -143,7 +145,7 @@
 }
 
 .gardenglow-grid {
-    width: 90%;
+    width: 93%;
     gap: 1rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -153,11 +155,20 @@
 }
 
 .tones-grid {
-    width: 90%;
+    width: 93%;
     gap: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dg-grid {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    width: 93%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -259,5 +270,18 @@
 }
 
 .display-2 {
+    grid-column: span 6;
+}
+
+.dg-1 {
+    grid-column: span 15;
+}
+.dg-2 {
+    grid-column: span 5;
+}
+.dg-3 {
+    grid-column: span 4;
+}
+.dg-4 {
     grid-column: span 6;
 }
