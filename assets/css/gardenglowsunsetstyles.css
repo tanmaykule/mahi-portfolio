@@ -136,7 +136,7 @@
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-top: 5%;
     margin-left: 2rem;
     margin-right: 2rem;
 }
