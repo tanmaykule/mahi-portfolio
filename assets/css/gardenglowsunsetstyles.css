@@ -1,6 +1,6 @@
 .hero-grid {
     display: grid;
-    width: 90%;
+    width: 93%;
     margin-left: auto;
     margin-right: auto;
     grid-template-columns: repeat(10, minmax(0, 1fr));
