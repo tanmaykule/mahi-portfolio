@@ -193,8 +193,12 @@ body {
 }
 
 footer {
-  text-align: center;
   padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
   background: #f13927;
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -286,4 +290,20 @@ footer {
   color: #ffff;
   line-height: 160px;
   margin-left: 500px;
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(200px) scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+.fade-up {
+    opacity: 1;
+    animation: fade-up 1s;
 }

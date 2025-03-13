@@ -1,0 +1,15 @@
+.width-full {
+    width: 100%;
+}
+
+.object-scale-down {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.flex-col-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
