@@ -143,6 +143,7 @@ body {
 .feature-product {
   text-align: center;
   padding: 2rem;
+  padding-bottom: 2%;
   font-family: main;
   font-size: 60px;
   color: #fef9f6;
