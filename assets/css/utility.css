@@ -24,6 +24,11 @@
     margin-right: 0;
 }
 
+.margin-padding-bottom-0 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 .big-image-caption {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -32,4 +37,9 @@
     font-size: 16px;
     text-align: right;
     margin-bottom: 3%;
+}
+
+.medium-margin-y {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
