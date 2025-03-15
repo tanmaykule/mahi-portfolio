@@ -15,7 +15,50 @@
 }
 
 .product-img {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 70%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 70%;
+}
+
+.stamps-grid {
+  width: 93%;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stamps-1 {
+  grid-row: span 2;
+  grid-column: span 6;
+}
+.stamps-2 {
+  grid-row: span 1;
+  grid-column: span 8;
+}
+.stamps-3 {
+  grid-row: span 2;
+  grid-column: span 6;
+}
+.stamps-4 {
+  grid-row: span 1;
+  grid-column: span 8;
+}
+.stamps-5 {
+  grid-row: span 2;
+  grid-column: span 6;
+}
+.stamps-6 {
+  grid-row: span 1;
+  grid-column: span 8;
+}
+.stamps-7 {
+  grid-row: span 2;
+  grid-column: span 6;
+}
+.stamps-8 {
+  grid-row: span 1;
+  grid-column: span 8;
 }
