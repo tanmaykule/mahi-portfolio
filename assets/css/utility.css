@@ -1,3 +1,23 @@
+video {
+    object-fit: fill;
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-cols-10 {
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.col-span-6 {
+    grid-column: span 6;
+}
+
+.col-span-4 {
+    grid-column: span 4;
+}
+
 .width-full {
     width: 100%;
 }
@@ -26,6 +46,11 @@
     align-items: center;
 }
 
+.vertical-center {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .margin-right {
     margin-left: 0;
     margin-right: auto;
@@ -46,6 +71,21 @@
     padding-bottom: 0;
 }
 
+.padding-y {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.margin-y {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.margin-b {
+    margin-bottom: 4%;
+}
+
+
 .big-image-caption {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -61,4 +101,19 @@
 .medium-margin-y {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.grey-bg {
+    width: 100%;
+    background-color: #525454;
+}
+
+.site-width-margin {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-white {
+    color: white;
 }

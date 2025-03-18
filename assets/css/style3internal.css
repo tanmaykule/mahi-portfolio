@@ -149,10 +149,14 @@ body {
   color: #fef9f6;
 }
 
-.feature-product img {
+.feature-product img,
+.feature-product video
+{
   width: 93%;
   height: auto;
   margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .product-gallery {
@@ -160,18 +164,18 @@ body {
 }
 
 .products {
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  gap: 1rem; /* Space between product cards */
+  gap: 0; /* Space between product cards */
   justify-content: center; /* Center the products horizontally */
   align-items: center; /* Align products vertically */
-  padding: 2rem; /* Add padding around the entire section */
   background-color: red; /* Red background for the entire section */
 }
 
 .product {
   text-align: center; /* Center content within each product */
-  padding: 2rem; /* Space inside each product container */
-  max-width: 500px; /* Matches the desired image size */
   flex: 1; /* Distribute products evenly */
 }
 
@@ -194,11 +198,13 @@ body {
 }
 
 footer {
-  padding: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: auto; 
+  margin-right: auto;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  width: 93%;
   text-align: center;
   background: #f13927;
   color: white;
@@ -310,9 +316,11 @@ footer {
 }
 
 .behance{
-  padding: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  width: 93%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 2rem;
   margin-top: 2rem;
   background: white;

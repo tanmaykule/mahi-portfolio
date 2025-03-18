@@ -72,12 +72,14 @@
 }
 
 .dark-products {
-  display: flex;
-  gap: 1rem; /* Space between product cards */
-  justify-content: center; /* Center the products horizontally */
-  align-items: center; /* Align products vertically */
-  padding: 2rem; /* Add padding around the entire section */
-  padding-bottom: 0;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between; /* Center the products horizontally */
+    gap: 1rem;
+    align-items: center; /* Align products vertically */
+    padding-bottom: 0;
 }
 
 .chapter-title {
@@ -135,13 +137,14 @@
 }
 
 .display-grid {
-    gap: 3rem;
+    gap: 3%;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    width: 93%;
     margin-bottom: 3rem;
     margin-top: 5%;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gardenglow-grid {
@@ -280,6 +283,10 @@
 
 .display-2 {
     grid-column: span 6;
+}
+
+.display-full {
+    grid-column: span 10;
 }
 
 .dg-1 {
