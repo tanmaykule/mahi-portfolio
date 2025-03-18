@@ -59,7 +59,7 @@ body {
   color: #ffff;
   display: grid;
   grid-template-columns:repeat(10, auto);
-  width: 96%;
+  width: 92%;
   margin-left: auto;
   margin-right: auto;
 }
